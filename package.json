@@ -12,6 +12,7 @@
     "whistle",
     "eruda",
     "vConsole",
+    "inspector",
     "h5"
   ],
   "registry": "https://github.com/whistle-plugins/whistle.inspect",
