@@ -1,6 +1,6 @@
 {
   "name": "whistle.inspect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "集成eruda和vConsole等调试H5页面工具的插件",
   "scripts": {
     "build": "node ./src/build",
@@ -27,7 +27,7 @@
     "whistle": ">= 1.12.0"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.6",
+    "babel-esl int": "^8.2.6",
     "eslint": "^5.2.0",
     "eslint-config-imweb": "^0.2.10"
   }
