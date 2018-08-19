@@ -27,7 +27,7 @@
     "whistle": ">= 1.12.0"
   },
   "devDependencies": {
-    "babel-esl int": "^8.2.6",
+    "babel-eslint": "^8.2.6",
     "eslint": "^5.2.0",
     "eslint-config-imweb": "^0.2.10"
   }
