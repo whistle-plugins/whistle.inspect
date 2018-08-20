@@ -1,4 +1,4 @@
-# whistle.inpsect
+# whistle.inspect
 该whistle插件集成了[vConsole](https://github.com/Tencent/vConsole)和[erude](https://github.com/liriliri/eruda)等用来在移动端页面上模拟Chrome开发者工具功能的模块，方便调试手机上的H5页面，只需简单配置即可随意切换vConsole和eruda。
 
 > 更多移动端调试方法参见：[利用whistle调试移动端页面](https://juejin.im/post/5ad5f471518825557e78e623)。
