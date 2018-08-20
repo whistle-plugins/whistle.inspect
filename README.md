@@ -19,7 +19,7 @@
 # 在匹配pattern的页面中插入eruda
 pattern whistle.inspect://eruda # 或 whistle.inspect://e
 
-# 在匹配pattern的页面中插入vConsoe
+# 在匹配pattern的页面中插入vConsole
 pattern whistle.inspect://
 ```
 其中，`pattern` 表示匹配请求url的表达式，可以为域名（如：`www.test.com whistle.inspect://e`）、路径，通配符、正则表达式等，具体参见：[whistle的匹配模式](http://wproxy.org/whistle/pattern.html)。
