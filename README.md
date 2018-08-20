@@ -9,9 +9,9 @@
     - 如何升级whistle参见[帮助文档](http://wproxy.org/whistle/update.html)。
 2. 安装inspect插件，执行npm全局安装即可：
     ```
-    npm i -g whistle.inpsect
+    npm i -g whistle.inspect
     ```
-    > 如果是Linux或Mac，可能需要用 `sudo npm i -g whistle.inpsect`，推荐使用[cnpm](https://github.com/cnpm/cnpm)或自己公司提供的npm镜像安装
+    > 如果是Linux或Mac，可能需要用 `sudo npm i -g whistle.inspect`，推荐使用[cnpm](https://github.com/cnpm/cnpm)或自己公司提供的npm镜像安装
 
 # 使用
 安装插件后，只需配置简单的规则即可随意切换vConsole和eruda：
