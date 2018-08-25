@@ -1,4 +1,8 @@
 ;(function() {
+  if (typeof window === 'undefined' || window['___whistle.inspect-is-inited']) {
+    return;
+  }
+  window['___whistle.inspect-is-inited'] = true;
   var exports = {};
   var module = { exports: exports };
   /*! eruda v1.5.0 https://eruda.liriliri.io/ */
