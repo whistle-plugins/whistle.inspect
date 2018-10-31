@@ -1,11 +1,9 @@
 {
   "name": "whistle.inspect",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "集成eruda和vConsole等调试H5页面工具的插件",
   "scripts": {
-    "build": "node ./src/build",
-    "lint": "eslint index.js",
-    "lintfix": "eslint index.js --fix"
+    "build": "node ./src/build"
   },
   "homepage": "https://github.com/whistle-plugins/whistle.inspect",
   "keywords": [
@@ -22,10 +20,5 @@
   },
   "engines": {
     "node": ">= 6"
-  },
-  "devDependencies": {
-    "babel-eslint": "^8.2.6",
-    "eslint": "^5.2.0",
-    "eslint-config-imweb": "^0.2.10"
   }
 }
