@@ -13,6 +13,13 @@
     "inspector",
     "h5"
   ],
+  "whistleConfig": {
+    "hintList": [
+      "vConsole",
+      "eruda"
+    ],
+    "hideShortProtocol": true
+  },
   "registry": "https://github.com/whistle-plugins/whistle.inspect",
   "repository": {
     "type": "git",
