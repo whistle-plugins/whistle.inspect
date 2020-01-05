@@ -1,1 +1,1 @@
-* jsAppend://`{whistle.inspect/${whistle.inspect.replace(/^(e)?.*/i,$1)}v.js}`
+* jsAppend://`{whistle.inspect/${whistle.inspect.replace(/^(e)?.*/i,$1)}v.js}` enable://strictHtml
