@@ -4,7 +4,7 @@ const path = require('path');
 const values = {};
 const SCRIPTS_DIR = path.join(__dirname, 'scripts');
 
-fs.readdirSync(SCRIPTS_DIR).forEach((filename) => {
+['v.js', 'ev.js'].forEach((filename) => {
   const text = fs.readFileSync(path.join(SCRIPTS_DIR, filename), { encoding: 'utf8' });
   values[`whistle.inspect/${filename}`] = text;
 });

@@ -1,6 +1,6 @@
 {
   "name": "whistle.inspect",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "集成eruda和vConsole等调试H5页面工具的插件",
   "scripts": {
     "build": "node ./src/build"
