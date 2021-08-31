@@ -18,11 +18,14 @@
 # 使用
 安装插件后，只需配置简单的规则即可随意切换vConsole和eruda：
 ```
-# 在匹配pattern的页面中插入eruda
+# 在匹配pattern的页面中插入 eruda
 pattern whistle.inspect://eruda # 或 whistle.inspect://e
 
-# 在匹配pattern的页面中插入vConsole
+# 在匹配pattern的页面中插入 vConsole
 pattern whistle.inspect://
+
+# 在匹配pattern的页面中插入 mdebug
+pattern whistle.inspect://mdebug # 或 whistle.inspect://m
 ```
 其中，`pattern` 表示匹配请求url的表达式，可以为域名（如：`www.test.com whistle.inspect://e`）、路径，通配符、正则表达式等，具体参见：[whistle的匹配模式](http://wproxy.org/whistle/pattern.html)。
 
