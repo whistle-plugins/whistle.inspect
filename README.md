@@ -1,7 +1,7 @@
 # whistle.inspect
 > 使用该插件建议用最新版本的 [whistle](https://wproxy.org/whistle/update.html)
 
-该whistle插件集成了[vConsole](https://github.com/Tencent/vConsole)和[eruda](https://github.com/liriliri/eruda)等用来在移动端页面上模拟Chrome开发者工具功能的模块，方便调试手机上的H5页面，只需简单配置即可随意切换vConsole和eruda。
+该whistle插件集成了[mdebug](https://github.com/tnfe/mdebug)和[vConsole](https://github.com/Tencent/vConsole)和[eruda](https://github.com/liriliri/eruda)等用来在移动端页面上模拟Chrome开发者工具功能的模块，方便调试手机上的H5页面，只需简单配置即可随意切换mdebug、vConsole和eruda。
 
 > 更多移动端调试方法参见：[利用whistle调试移动端页面](https://juejin.im/post/5ad5f471518825557e78e623)。
 
@@ -29,5 +29,5 @@ pattern whistle.inspect://mdebug # 或 whistle.inspect://m
 ```
 其中，`pattern` 表示匹配请求url的表达式，可以为域名（如：`www.test.com whistle.inspect://e`）、路径，通配符、正则表达式等，具体参见：[whistle的匹配模式](http://wproxy.org/whistle/pattern.html)。
 
-配置后访问对应页面，可以看到页面已经注入vConsole或eruda：
+配置后访问对应页面，可以看到页面已经注入mdebug或vConsole或eruda：
 ![示例图](https://user-images.githubusercontent.com/11450939/44310905-b7824500-a410-11e8-9d8a-cf76a8cf920b.gif)
