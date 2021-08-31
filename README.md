@@ -16,7 +16,7 @@
     > 如果是Linux或Mac，可能需要用 `sudo npm i -g whistle.inspect`，推荐使用[cnpm](https://github.com/cnpm/cnpm)或自己公司提供的npm镜像安装
 
 # 使用
-安装插件后，只需配置简单的规则即可随意切换vConsole和eruda：
+安装插件后，只需配置简单的规则即可随意切换 vConsole 和 eruda 、mdebug：
 ```
 # 在匹配pattern的页面中插入 eruda
 pattern whistle.inspect://eruda # 或 whistle.inspect://e
