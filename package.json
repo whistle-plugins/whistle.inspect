@@ -1,6 +1,6 @@
 {
   "name": "whistle.inspect",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "description": "集成 vConsole、eruda、mdebug 等调试H5页面工具的插件",
   "scripts": {
     "build": "node ./src/build"
