@@ -23,7 +23,7 @@
 pattern whistle.inspect://eruda # 或 whistle.inspect://e
 
 # 在匹配 pattern 的页面中插入 vConsole
-pattern whistle.inspect://
+pattern whistle.inspect://vconsole # 或 whistle.inspect://v
 
 # 在匹配 pattern 的页面中插入 mdebug
 pattern whistle.inspect://mdebug # 或 whistle.inspect://m
